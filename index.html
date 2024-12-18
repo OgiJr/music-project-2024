@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIC 270 Project</title>
+    <style>
+      body {
+        background: #121212;
+        color: #f1f1f1;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 2rem;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 300;
+      }
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+      }
+      .card {
+        background: #1e1e1e;
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 300px;
+        flex: 1 1 300px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+      }
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        display: block;
+      }
+      .card-content {
+        padding: 1.5rem;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .card h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+      .card p {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        margin: 0 0 1rem;
+        color: #ccc;
+      }
+      .card audio {
+        width: 100%;
+        outline: none;
+      }
+      .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ognian's Music Project</h1>
+    <p>
+      This project explores the interaction between classical melodies and
+      various digital techniques and musical styles within Logic Pro. Thanks for
+      listening!
+    </p>
+    <br />
+    <div class="card-container">
+      <div class="card">
+        <img src="images/rock.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Claude Debussy - Arabesque No. 1</h2>
+            <p>
+              This experiment involves transforming Debussy's famous Arabesuqe
+              into a melodic rock guitar quartet with supplementary rock drums.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/arabesque.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/classical.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Brahms - Hungarian Dance No. 1</h2>
+            <p>
+              This experiment involves semi-orchestrating Brahms' Hungarian
+              Dance No. 1 using a variety of classical and non-classical
+              instruments that were not part of the original composition.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/Hungarian.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/jazz.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Ottorino Respighi - Six Pieces for Piano</h2>
+            <p>
+              This experiment involved layering Respighi's first piano piece
+              with drums, guitars, and other instruments to create a jazzy
+              piece.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/valse caressante.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/dnb.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Franz Liszt - Totentanz</h2>
+            <p>
+              This experiment is the transformations of Liszt's piano
+              composition Totentanz into a DnB (Drum n Bass) song.
+              Unfortunately, this piece isn't finished due to me having to be
+              hospitalized on the 13th of December.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/totentanz.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/clockwork-orange.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Guiseppe Verdi - Rigoletto</h2>
+            <p>
+              This experiment involved creating an abridged version of the "La
+              donna è mobile" aria from Verdi's Rigoletto. The style I was going
+              for is the one used in Stanley Kubrick's Clockwork Orange.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/rigoletto.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/blues.jpg" />
+        <div class="card-content">
+          <div>
+            <h2>Sergei Rachmaninoff - Symphony 2</h2>
+            <p>
+              This experiment involved transofrming the third movement of
+              Rachmaninoff's 2nd Symphony into a jazz/blues composition. The
+              piece is abridged.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/Symphony 2.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/orchestra.jpg" alt="Card Image 7" />
+        <div class="card-content">
+          <div>
+            <h2>Franz Schubert - Ständchen</h2>
+            <p>
+              Originally this piece was written for piano and voice. In this
+              experiment I orchestrate it for piano, choir, and various
+              instruments through Logic Pro.
+            </p>
+          </div>
+          <audio controls>
+            <source src="audio/Serenade.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+    <a
+      style="color: white"
+      href="https://docs.google.com/document/d/1vs6Zy2Us-kFEyBQNg87v5ZQHOrarVBJ7HnJYnV65mn4/edit?usp=sharing"
+      >Sources</a
+    >
+  </body>
+</html>
